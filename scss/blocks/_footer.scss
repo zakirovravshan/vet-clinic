@@ -1,0 +1,182 @@
+.footer {
+    background: #F3F3F3;
+    border: 1px solid #f5deb3;
+}
+
+.footer__inner {
+    display: flex;
+    align-items: center;
+    padding: 54px 0 0px;
+    justify-content: space-between;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    @include list-starter;
+
+
+}
+
+.footer__list {
+    @include list-starter;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 115px;
+}
+
+.first {
+    margin-left: 67px;
+}
+
+.second {
+    margin-left: 87px;
+}
+
+.footer__item {
+    margin-bottom: 14px;
+    text-align: left;
+}
+
+.footer__link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    /* identical to box height */
+
+
+    color: #333333;
+    text-decoration: none;
+}
+.footer__link:hover{
+    color: #FFBD54;
+}
+.footer__link:active{
+    color: #FFBD54;
+    opacity: 0.6;
+}
+
+
+.footer__day {
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    justify-content: start;
+    flex-direction: column;
+    width: 140px;
+    height: 91px;
+    margin-left: 50px;
+
+
+}
+
+.footer__day::before {
+    position: absolute;
+    top: 0 px;
+    left: -25px;
+    width: 16px;
+    height: 16px;
+    background-image: url("../../images/calendar.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    content: "";
+
+}
+
+.footer__days {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 3px;
+}
+
+.footer__adress {
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    justify-content: start;
+    flex-direction: column;
+    width: 140px;
+    height: 91px;
+    margin-left: 50px;
+
+
+}
+
+.footer__adress::before {
+    position: absolute;
+    top: 0 px;
+    left: -25px;
+    width: 16px;
+    height: 16px;
+    background-image: url("../../images/house.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    content: "";
+
+}
+
+.footer__adres {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 3px;
+}
+
+.footer__tel {
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    justify-content: start;
+    flex-direction: column;
+    width: 140px;
+    height: 91px;
+    margin-left: 50px;
+
+
+}
+
+.footer__tel::before {
+    position: absolute;
+    top: 0 px;
+    left: -25px;
+    width: 16px;
+    height: 16px;
+    background-image: url("../../images/phone.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    content: "";
+
+}
+
+.tels {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 3px;
+    margin-bottom: 4px;
+    text-decoration: 4px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: right;
+
+    color: #333333;
+
+}
+.tels:hover{
+    color: #FFBD54;
+}
+.tels:active{
+    opacity: 0.6;
+}
+
+.author {
+    text-align: right;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: right;
+
+    color: #5C5C5C;
+    margin-bottom: 23px;
+
+
+}

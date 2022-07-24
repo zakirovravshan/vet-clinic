@@ -1,0 +1,73 @@
+.hero {
+    background-image: url("../../images/cats.png") , url("../../images/bird.png");
+    background-repeat: no-repeat;
+    background-size: 870px 835px , 350px 430px;
+    background-position: calc(50% - 530px) calc(50% - 90px) , calc(50% + 690px) calc(50% + 200px);
+}
+
+.hero__inner {
+    padding: 153px 32px 311px 670px;
+    width: 608px;
+   
+
+}
+
+.hero__title {
+    width: 608px;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 64px;
+    /* or 91% */
+
+
+    color: #333333;
+    margin: 0;
+    margin-bottom: 24px;
+
+}
+
+.hero__title__span {
+    width: 608px;
+
+    color: #78C0DE;
+}
+
+.hero__text__wrapper {
+    width: 495px;
+}
+
+.hero__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    /* or 131% */
+
+
+    color: #949494;
+    margin: 0;
+    margin-bottom: 38px;
+
+}
+
+.hero__link {
+    display: inline-block;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+    width: 181px;
+    padding: 15px;
+    text-align: center;
+    background: #333333;
+    border-radius: 3px;
+    text-decoration: none;
+
+}
+
+.hero__link:hover{
+    background-color: #FFBD54;
+    color: #333333;;
+}
+.hero__link:active{
+    opacity: 0.6;
+}

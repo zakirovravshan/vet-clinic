@@ -1,0 +1,81 @@
+.gap {}
+
+.quote__inner {
+    padding: 43px 309px 191px 300px;
+    text-align: center;
+
+}
+
+.quote__wrapper{
+    position: relative;
+    width: 753px ;
+}
+.quote__wrapper::before{
+    position: absolute;
+    width: 140px;
+    height: 1px;
+    top: -43px;
+    left: 270px;
+    background-image: url("../../images/line3.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    content: "";
+}
+
+.quote__wrapper::after{
+    position: absolute;
+    width: 140px;
+    height: 1px;
+    bottom: 50px;
+    right: 340px;
+    background-image: url("../../images/line3.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    content: "";
+}
+
+.quote__text {
+    position: relative;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+    color: #949494;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 70px;
+}
+
+.quote__text::before{
+    position: absolute;
+    width: 60px;
+    height: 50px;
+    top: -30px;
+    left: -120px;
+    background-image: url("../../images/q1.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    content: "";
+}
+.quote__text::after{
+    position: absolute;
+    width: 60px;
+    height: 50px;
+    bottom: -20px;
+    right: -120px;
+    background-image: url("../../images/q2.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    content: "";
+}
+
+.quote__info {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    /* identical to box height */
+
+
+    color: #333333;
+
+}

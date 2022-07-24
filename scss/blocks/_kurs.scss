@@ -1,0 +1,58 @@
+.kurs {
+    position: relative;
+    background-image: url("../../images/dog-bgi.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+.kurs::before{
+    position: absolute;
+    width: 613px;
+    height: 481px;
+    // top: -132px;
+    // left: 870px;
+    top: calc(50% - 275px);
+    left: calc(50% + 120px);
+    background-image: url("../../images/dog.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    content: "";
+}
+
+.kurs__inner {
+    padding: 90px 287px  88px 287px;
+
+}
+
+
+
+.kurs__title {
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 20px;
+    /* or 42% */
+
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 32px;
+}
+
+.kurs__input {
+    width: 335px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    padding: 18px 22px 15px 22px;
+    border: none;
+    margin-right: 21px;
+    outline-color: #FFBD54;
+}
+.kurs__btn{
+    @include btn;
+    width: 188px;
+    border: none;
+    padding: 15px 22px 15px 22px;
+}

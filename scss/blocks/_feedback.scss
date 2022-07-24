@@ -1,0 +1,91 @@
+.feedbackbox {
+    width: 1440px;
+    margin: 0 auto;
+    padding: 0 0px;
+    background-color: #333333;
+    margin-bottom: 247px;
+}
+
+.feedback__inner {
+    @include flex-starter;
+    background-image: url("../../images/feedback-bgi.png"), url("../../images/goldfish.png");
+    background-repeat: no-repeat;
+    background-size: 926px 624px, 410px 410px;
+    background-position: right center, right calc(50% + 50px);
+}
+
+.map {
+    width: 462px;
+    height: 658px;
+}
+
+.feedback__box {
+    margin-left: 166px;
+    padding-top: 62px;
+    padding-bottom: 74px;
+    width: 375px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.feedback__box__title {
+    margin: 0;
+    padding: 0;
+    width: 390px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 62px;
+    text-align: left;
+    color: #FFFFFF;
+    margin-bottom: 14px;
+}
+
+.feedback__box__text {
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    /* or 125% */
+
+
+    color: #949494;
+    margin-bottom: 29px;
+}
+
+.feedback__input {
+    display: block;
+    width: 380px;
+    background: #FFFFFF;
+    border-radius: 0px;
+    padding: 16px 0px 13px 22px;
+    margin-bottom: 14px;
+
+}
+
+.feedback__desc {
+    // display: block;
+    resize: none;
+    width: 380px;
+    height: 165px;
+    padding: 17px 0 0 22px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+
+    color: #949494;
+    margin-bottom: 30px;
+
+}
+.form__btn{
+    @include btn;
+    background-color: #FFBD54;
+    width: 226px;
+    border: none;
+    border-radius: 0;
+}
